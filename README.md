@@ -1,4 +1,4 @@
-![Vite.js Vanilla Boilerplate Logo](https://raw.githubusercontent.com/halillusion/vite-vanilla-boilerplate/main/src/assets/img/favicon.svg "VVB Logo")
+![Vite.js Vanilla Boilerplate Logo](https://raw.githubusercontent.com/KalipsoCollective/vite-vanilla-boilerplate/main/src/assets/img/favicon.svg "VVB Logo")
 
 # Vite Vanilla Boilerplate
 
@@ -15,6 +15,7 @@ This repository will help create a boilerplate vanilla javascript + scss project
     -   JS
     -   SCSS
     -   Fonts
+    -   Handlebars
 -   ...and jump!
 
 ## Installation
