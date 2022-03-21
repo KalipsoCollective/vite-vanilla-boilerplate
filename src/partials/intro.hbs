@@ -1,0 +1,14 @@
+<section class="intro">
+    <h1 class="header">Vite Template Project</h1>
+    <img class="logo" src="{{webRoot}}/assets/img/favicon.svg" alt="Logo" />
+    <ul class="nav">
+        <li>
+            <a{{#if index}} class="active"{{/if}} href="index.html">Home</a>
+        </li>
+        <li>
+            <a{{#if index}}{{else}} class="active"{{/if}} href="other.html">Other</a>
+        </li>
+    </ul>
+    <pre class="using">    npm install
+    npm run dev</pre>
+</section>

@@ -1,6 +1,6 @@
 import path from 'path'
 import { defineConfig } from 'vite'
-import handlebars from 'vite-plugin-handlebars';
+import Handlebars from 'vite-plugin-handlebars';
 
 const PAGE_DATA = {
   '/index.html': {
@@ -38,7 +38,7 @@ export default defineConfig({
       },
     },
   },
-  plugins: [handlebars({
+  plugins: [Handlebars({
     partialDirectory: path.resolve(__dirname, 'src/partials'),
     compileOptions: {
       preventIndent: true,

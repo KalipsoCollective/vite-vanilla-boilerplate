@@ -3,19 +3,68 @@ body {
                Roboto, Oxygen-Sans, Ubuntu, Cantarell,
                "Helvetica Neue", sans-serif;
 }
-.header {
-    margin-top: 2rem;
-    font-size: 2rem;
-    color: #0047FF;
-    text-align: center;
-    & ~ a {
-        color: #697696;
-        display: block;
+.intro {
+    height: 100vh;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    .header {
+        margin-top: 2rem;
+        font-size: 2rem;
+        color: #0047FF;
         text-align: center;
-        text-decoration: none;
-        font-weight: 600;
-        &:hover {
-            color: #0047FF;
+    }
+    .logo {
+        width: 5rem;
+        margin: 2rem auto 5rem;
+    }
+    .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+        li {
+            a {
+                color: #697696;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                font-weight: 600;
+                background-color: #e7e8eb;
+                padding: 0.1rem 0.8rem;
+                border-radius: 0.2rem;
+                font-size: 1.2rem;
+                transition: 0.2s ease-out;
+                box-shadow: inset 0 0.2rem 0.4rem rgba(#0047FF, 0.2);
+                border: 0.1rem solid transparent;
+                &:hover {
+                    color: #0047FF;
+                    background-color: #ffffff;
+                    box-shadow: 0 0.2rem 0.4rem rgba(#0047FF, 0.2);
+                }
+                &.active {
+                    border-color: #0047FF;
+                }
+            }
+            & + li {
+                margin-left: 0.5rem;
+            }
         }
+    }
+    .using {
+        box-shadow: inset 0 0.2rem 0.4rem rgba(#000c29, 0.2);
+        width: 100%;
+        background-color: #697696;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 2rem;
+        border-radius: 0.5rem;
+        padding: 2rem 0.5rem;
+        font-size: 1rem;
     }
 }

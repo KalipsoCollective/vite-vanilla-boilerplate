@@ -13,7 +13,5 @@
     "vite": "^2.8.6",
     "vite-plugin-handlebars": "^1.6.0"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }

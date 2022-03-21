@@ -1,6 +1,4 @@
-<div style="text-align:center">
-![Vite.js Vanilla Boilerplate Logo](https://img.shields.io/badge/License-MIT-yellow.svg "VVB Logo")
-</div>
+![Vite.js Vanilla Boilerplate Logo](https://raw.githubusercontent.com/halillusion/vite-vanilla-boilerplate/main/src/assets/img/favicon.svg "VVB Logo")
 
 # Vite Vanilla Boilerplate
 
