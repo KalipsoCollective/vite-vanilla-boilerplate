@@ -8,10 +8,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "del": "^6.0.0",
+    "del-cli": "^4.0.1",
     "sass": "^1.49.9",
     "vite": "^2.8.6",
     "vite-plugin-handlebars": "^1.6.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@popperjs/core": "^2.11.4",
+    "bootstrap": "^5.1.3"
+  }
 }

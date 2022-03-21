@@ -13,6 +13,7 @@ const PAGE_DATA = {
 
 export default defineConfig({
   root: 'src',
+  publicDir: 'public',
   build: {
     minify: false,
     outDir: '../dist',
@@ -20,21 +21,6 @@ export default defineConfig({
       input: {
         index: path.resolve(__dirname, 'src/index.html'),
         other: path.resolve(__dirname, 'src/other.html')
-      },
-      output: {
-        assetFileNames: (assetInfo) => {
-          // [hash]
-          let extType = assetInfo.name.split('.').at(1);
-          if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType)) {
-            extType = 'img';
-          }
-          if (/otf|ttf|woff|woff2/i.test(extType)) {
-            extType = 'fonts';
-          }
-          return `assets/${extType}/[name][extname]`;
-        },
-        chunkFileNames: 'assets/js/[name].js',
-        entryFileNames: 'assets/js/[name].js',
       },
     },
   },
